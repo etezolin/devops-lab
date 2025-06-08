@@ -222,8 +222,8 @@ Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICEN
 
 - **Autor**: [Edison Tezolin]
 - **Email**: [tezolin.edison@gmail.como]
-- **LinkedIn**: [linkedin.com/in/etezolin](https://www.linkedin.com/in/etezolin)]
-- **Homepage**: [etezolin.dev](https://etezolin.dev/)]
+- **LinkedIn**: [[linkedin.com/in/etezolin](https://www.linkedin.com/in/etezolin)]
+- **Homepage**: [[etezolin.dev](https://etezolin.dev/)]
 
 ---
 
