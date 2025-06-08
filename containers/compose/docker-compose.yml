@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  webapp:
+    image: nginx:alpine
+    container_name: devops-webapp
+    ports:
+      - "8080:80"
+    volumes:
+      - ./webapp:/usr/share/nginx/html:ro
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: devops-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: devops_lab
+      POSTGRES_USER: devops
+      POSTGRES_PASSWORD: devops123
+    volumes:
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+    restart: unless-stopped
+
+  adminer:
+    image: adminer:latest
+    container_name: devops-adminer
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
