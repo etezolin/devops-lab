@@ -110,7 +110,8 @@ chmod +x scripts/setup/init.sh
 
 ### ✅ Fase 1: Fundação (Semanas 1-2)
 - [x] Configuração do repositório
-- [ ] Setup do sistema base
+- [x] Setup do sistema base
+- [x] Docker + containerização
 - [ ] Implementação de virtualização
 - [ ] Configuração de rede e storage
 
